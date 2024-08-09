@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Validater </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: bisque;">
+    <script src="index.js" defer></script>
+    <header> 
+        <nav>
+            <div class="logo">
+                <h1 style="color: black;"><img src="/email-validator/img/title.svg">E-Validate </h1>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        
+        <div class="container">
+            <form action="/submit" method="post">
+                <h2> Enter the details for validation</h2>
+                <!-- Text input for username -->
+                <label for="username">E-mail:</label>
+                <input placeholder="Enter mail for validation" id="username" name="username" required>
+                <br><br>
+            
+
+            
+                <!-- Submit button -->
+                <input id="submitbt" type="submit" value="Submit">
+              </form>
+        </div>
+        <div class="container">
+            <h3> Results are :-</h3>
+            <div id="resultcont">
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+       ALL RIGHTS RESERVED | COPYRIGHT 2024 | BISHT
+    </footer>
+    
+</body>
+</html>

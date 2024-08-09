@@ -1,0 +1,64 @@
+
+nav{
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: brown;
+}
+main{
+    min-height: 80vh;
+}
+footer{
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.container{
+    padding: 10px 200px 30px;
+    margin: auto;
+}
+.logo img{
+    width: 30px;
+    filter: invert(1);
+}
+
+@media only screen and  (max-width: 600px){
+    
+    .container{
+        font-size: 12px; 
+    }
+
+    input[type='text'] {
+        width: 100%; 
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
